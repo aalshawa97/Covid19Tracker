@@ -5,6 +5,7 @@ import com.robinhood.spark.SparkAdapter
 
 class CovidSparkAdapter(private val dailyData: List<CovidData>) : SparkAdapter() {
 
+
     var daysAgo = TimeScale.MAX
     var metric = Metric.POSITIVE
 
